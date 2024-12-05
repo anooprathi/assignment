@@ -1,0 +1,83 @@
+2024-12-04T22:45:17.112-06:00  INFO 36024 --- [assignment] [main] c.a.assignment.AssignmentApplication     : Starting AssignmentApplication using Java 17.0.6 with PID 36024 (C:\Anoop's Data\vertex\assignment\target\classes started by rathi in C:\Anoop's Data\vertex\assignment)
+2024-12-04T22:45:17.115-06:00  INFO 36024 --- [assignment] [main] c.a.assignment.AssignmentApplication     : No active profile set, falling back to 1 default profile: "default"
+2024-12-04T22:45:18.290-06:00  INFO 36024 --- [assignment] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-12-04T22:45:18.361-06:00  INFO 36024 --- [assignment] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 59 ms. Found 1 JPA repository interface.
+2024-12-04T22:45:18.644-06:00  INFO 36024 --- [assignment] [main] ptablePropertiesBeanFactoryPostProcessor : Post-processing PropertySource instances
+2024-12-04T22:45:18.645-06:00  INFO 36024 --- [assignment] [main] c.u.j.EncryptablePropertySourceConverter : Skipping PropertySource configurationProperties [class org.springframework.boot.context.properties.source.ConfigurationPropertySourcesPropertySource
+2024-12-04T22:45:18.647-06:00  INFO 36024 --- [assignment] [main] c.u.j.EncryptablePropertySourceConverter : Skipping PropertySource servletConfigInitParams [class org.springframework.core.env.PropertySource$StubPropertySource
+2024-12-04T22:45:18.647-06:00  INFO 36024 --- [assignment] [main] c.u.j.EncryptablePropertySourceConverter : Skipping PropertySource servletContextInitParams [class org.springframework.core.env.PropertySource$StubPropertySource
+2024-12-04T22:45:18.648-06:00  INFO 36024 --- [assignment] [main] c.u.j.EncryptablePropertySourceConverter : Converting PropertySource systemProperties [org.springframework.core.env.PropertiesPropertySource] to EncryptableMapPropertySourceWrapper
+2024-12-04T22:45:18.649-06:00  INFO 36024 --- [assignment] [main] c.u.j.EncryptablePropertySourceConverter : Converting PropertySource systemEnvironment [org.springframework.boot.env.SystemEnvironmentPropertySourceEnvironmentPostProcessor$OriginAwareSystemEnvironmentPropertySource] to EncryptableSystemEnvironmentPropertySourceWrapper
+2024-12-04T22:45:18.649-06:00  INFO 36024 --- [assignment] [main] c.u.j.EncryptablePropertySourceConverter : Converting PropertySource random [org.springframework.boot.env.RandomValuePropertySource] to EncryptablePropertySourceWrapper
+2024-12-04T22:45:18.650-06:00  INFO 36024 --- [assignment] [main] c.u.j.EncryptablePropertySourceConverter : Converting PropertySource Config resource 'class path resource [application.yaml]' via location 'optional:classpath:/' [org.springframework.boot.env.OriginTrackedMapPropertySource] to EncryptableMapPropertySourceWrapper
+2024-12-04T22:45:18.650-06:00  INFO 36024 --- [assignment] [main] c.u.j.EncryptablePropertySourceConverter : Converting PropertySource applicationInfo [org.springframework.boot.ApplicationInfoPropertySource] to EncryptableMapPropertySourceWrapper
+2024-12-04T22:45:19.403-06:00  INFO 36024 --- [assignment] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2024-12-04T22:45:19.420-06:00  INFO 36024 --- [assignment] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-12-04T22:45:19.421-06:00  INFO 36024 --- [assignment] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.33]
+2024-12-04T22:45:19.492-06:00  INFO 36024 --- [assignment] [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-12-04T22:45:19.494-06:00  INFO 36024 --- [assignment] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2316 ms
+2024-12-04T22:45:19.596-06:00  INFO 36024 --- [assignment] [main] c.u.j.filter.DefaultLazyPropertyFilter   : Property Filter custom Bean not found with name 'encryptablePropertyFilter'. Initializing Default Property Filter
+2024-12-04T22:45:19.606-06:00  INFO 36024 --- [assignment] [main] c.u.j.r.DefaultLazyPropertyResolver      : Property Resolver custom Bean not found with name 'encryptablePropertyResolver'. Initializing Default Property Resolver
+2024-12-04T22:45:19.609-06:00  INFO 36024 --- [assignment] [main] c.u.j.d.DefaultLazyPropertyDetector      : Property Detector custom Bean not found with name 'encryptablePropertyDetector'. Initializing Default Property Detector
+2024-12-04T22:45:19.658-06:00  INFO 36024 --- [assignment] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2024-12-04T22:45:19.981-06:00  INFO 36024 --- [assignment] [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection conn0: url=jdbc:h2:mem:customerdb user=PRIMARY
+2024-12-04T22:45:19.983-06:00  INFO 36024 --- [assignment] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2024-12-04T22:45:19.995-06:00  INFO 36024 --- [assignment] [main] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:customerdb'
+2024-12-04T22:45:20.231-06:00  INFO 36024 --- [assignment] [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-12-04T22:45:20.316-06:00  INFO 36024 --- [assignment] [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.6.2.Final
+2024-12-04T22:45:20.363-06:00  INFO 36024 --- [assignment] [main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2024-12-04T22:45:20.714-06:00  INFO 36024 --- [assignment] [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-12-04T22:45:20.799-06:00  WARN 36024 --- [assignment] [main] org.hibernate.orm.deprecation            : HHH90000025: H2Dialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2024-12-04T22:45:20.831-06:00  INFO 36024 --- [assignment] [main] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 2.3.232
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2024-12-04T22:45:21.880-06:00  INFO 36024 --- [assignment] [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-12-04T22:45:21.918-06:00  INFO 36024 --- [assignment] [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-12-04T22:45:22.378-06:00  WARN 36024 --- [assignment] [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-12-04T22:45:23.252-06:00  INFO 36024 --- [assignment] [main] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 3 endpoints beneath base path '/actuator'
+2024-12-04T22:45:23.350-06:00  INFO 36024 --- [assignment] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2024-12-04T22:45:23.352-06:00  INFO 36024 --- [assignment] [main] u.j.c.RefreshScopeRefreshedEventListener : Refreshing cached encryptable property sources on ServletWebServerInitializedEvent
+2024-12-04T22:45:23.353-06:00  INFO 36024 --- [assignment] [main] CachingDelegateEncryptablePropertySource : Property Source systemProperties refreshed
+2024-12-04T22:45:23.353-06:00  INFO 36024 --- [assignment] [main] CachingDelegateEncryptablePropertySource : Property Source systemEnvironment refreshed
+2024-12-04T22:45:23.353-06:00  INFO 36024 --- [assignment] [main] CachingDelegateEncryptablePropertySource : Property Source random refreshed
+2024-12-04T22:45:23.353-06:00  INFO 36024 --- [assignment] [main] CachingDelegateEncryptablePropertySource : Property Source Config resource 'class path resource [application.yaml]' via location 'optional:classpath:/' refreshed
+2024-12-04T22:45:23.353-06:00  INFO 36024 --- [assignment] [main] CachingDelegateEncryptablePropertySource : Property Source applicationInfo refreshed
+2024-12-04T22:45:23.353-06:00  INFO 36024 --- [assignment] [main] c.u.j.EncryptablePropertySourceConverter : Skipping PropertySource configurationProperties [class org.springframework.boot.context.properties.source.ConfigurationPropertySourcesPropertySource
+2024-12-04T22:45:23.353-06:00  INFO 36024 --- [assignment] [main] c.u.j.EncryptablePropertySourceConverter : Skipping PropertySource servletConfigInitParams [class org.springframework.core.env.PropertySource$StubPropertySource
+2024-12-04T22:45:23.354-06:00  INFO 36024 --- [assignment] [main] c.u.j.EncryptablePropertySourceConverter : Converting PropertySource servletContextInitParams [org.springframework.web.context.support.ServletContextPropertySource] to EncryptableEnumerablePropertySourceWrapper
+2024-12-04T22:45:23.354-06:00  INFO 36024 --- [assignment] [main] c.u.j.EncryptablePropertySourceConverter : Converting PropertySource Management Server [org.springframework.boot.actuate.autoconfigure.web.server.ManagementContextAutoConfiguration$SameManagementContextConfiguration$1] to EncryptablePropertySourceWrapper
+2024-12-04T22:45:23.369-06:00  INFO 36024 --- [assignment] [main] c.a.assignment.AssignmentApplication     : Started AssignmentApplication in 7.049 seconds (process running for 8.074)
+2024-12-04T22:45:23.710-06:00  INFO 36024 --- [assignment] [RMI TCP Connection(3)-192.168.208.1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-12-04T22:45:23.711-06:00  INFO 36024 --- [assignment] [RMI TCP Connection(3)-192.168.208.1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2024-12-04T22:45:23.713-06:00  INFO 36024 --- [assignment] [RMI TCP Connection(3)-192.168.208.1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 2 ms
+2024-12-04T22:45:32.585-06:00  INFO 36024 --- [assignment] [http-nio-8080-exec-2] c.a.assignment.web.CustomerController    : Received request to create customer with emailAddress : anoop.rathi1@gmail.com
+2024-12-04T22:45:32.586-06:00  INFO 36024 --- [assignment] [http-nio-8080-exec-2] c.a.a.service.CustomerServiceImpl        : Creating customer with email: anoop.rathi1@gmail.com
+2024-12-04T22:45:32.993-06:00  INFO 36024 --- [assignment] [http-nio-8080-exec-2] c.a.assignment.web.CustomerController    : Customer created successfully with ID: 65e1a79e-1a4a-4bdb-860d-e41583e4378d
+2024-12-04T22:52:33.275-06:00  INFO 36024 --- [assignment] [http-nio-8080-exec-3] c.a.assignment.web.CustomerController    : Received request to create customer with emailAddress : alpha.beta@gmail.com
+2024-12-04T22:52:33.275-06:00  INFO 36024 --- [assignment] [http-nio-8080-exec-3] c.a.a.service.CustomerServiceImpl        : Creating customer with email: alpha.beta@gmail.com
+2024-12-04T22:52:33.280-06:00  INFO 36024 --- [assignment] [http-nio-8080-exec-3] c.a.assignment.web.CustomerController    : Customer created successfully with ID: f562a646-436f-4192-ac68-e84c9243f783
+2024-12-04T22:52:41.106-06:00  INFO 36024 --- [assignment] [http-nio-8080-exec-4] c.a.assignment.web.CustomerController    : Received request to get customer with ID: f562a646-436f-4192-ac68-e84c9243f783
+2024-12-04T22:52:41.106-06:00 DEBUG 36024 --- [assignment] [http-nio-8080-exec-4] c.a.a.service.CustomerServiceImpl        : Fetching customer with ID: f562a646-436f-4192-ac68-e84c9243f783
+2024-12-04T22:52:41.123-06:00  INFO 36024 --- [assignment] [http-nio-8080-exec-4] c.a.assignment.web.CustomerController    : Retrieved customer: Customer(id=f562a646-436f-4192-ac68-e84c9243f783, firstName=Alpha, middleName=null, lastName=Beta, emailAddress=alpha.beta@gmail.com, phoneNumber=5282746589)
+2024-12-04T22:57:01.027-06:00  INFO 36024 --- [assignment] [http-nio-8080-exec-7] c.a.assignment.web.CustomerController    : Received request to get customer with ID: f562a646-436f-4192-ac68-e84c9243f783
+2024-12-04T22:57:01.027-06:00 DEBUG 36024 --- [assignment] [http-nio-8080-exec-7] c.a.a.service.CustomerServiceImpl        : Fetching customer with ID: f562a646-436f-4192-ac68-e84c9243f783
+2024-12-04T22:57:01.030-06:00  INFO 36024 --- [assignment] [http-nio-8080-exec-7] c.a.assignment.web.CustomerController    : Retrieved customer: Customer(id=f562a646-436f-4192-ac68-e84c9243f783, firstName=Alpha, middleName=null, lastName=Beta, emailAddress=alpha.beta@gmail.com, phoneNumber=5282746589)
+2024-12-04T22:57:20.783-06:00  INFO 36024 --- [assignment] [http-nio-8080-exec-10] c.a.assignment.web.CustomerController    : Received request to update customer with ID: f562a646-436f-4192-ac68-e84c9243f783
+2024-12-04T22:57:20.783-06:00  INFO 36024 --- [assignment] [http-nio-8080-exec-10] c.a.a.service.CustomerServiceImpl        : Updating customer with ID: f562a646-436f-4192-ac68-e84c9243f783
+2024-12-04T22:57:20.783-06:00 DEBUG 36024 --- [assignment] [http-nio-8080-exec-10] c.a.a.service.CustomerServiceImpl        : Fetching customer with ID: f562a646-436f-4192-ac68-e84c9243f783
+2024-12-04T22:57:20.803-06:00 DEBUG 36024 --- [assignment] [http-nio-8080-exec-10] c.a.a.service.CustomerServiceImpl        : Updated customer: Customer(id=f562a646-436f-4192-ac68-e84c9243f783, firstName=Alpha1, middleName=null, lastName=Beta1, emailAddress=alpha.beta1@gmail.com, phoneNumber=5282746589)
+2024-12-04T22:57:20.803-06:00  INFO 36024 --- [assignment] [http-nio-8080-exec-10] c.a.assignment.web.CustomerController    : Customer updated successfully with ID: f562a646-436f-4192-ac68-e84c9243f783
+2024-12-04T22:57:58.325-06:00  INFO 36024 --- [assignment] [http-nio-8080-exec-9] c.a.assignment.web.CustomerController    : Received request to delete customer with ID: f562a646-436f-4192-ac68-e84c9243f783
+2024-12-04T22:57:58.326-06:00  INFO 36024 --- [assignment] [http-nio-8080-exec-9] c.a.a.service.CustomerServiceImpl        : Deleting customer with ID: f562a646-436f-4192-ac68-e84c9243f783
+2024-12-04T22:57:58.327-06:00 DEBUG 36024 --- [assignment] [http-nio-8080-exec-9] c.a.a.service.CustomerServiceImpl        : Customer with ID: f562a646-436f-4192-ac68-e84c9243f783 deleted successfully.
+2024-12-04T22:57:58.337-06:00  INFO 36024 --- [assignment] [http-nio-8080-exec-9] c.a.assignment.web.CustomerController    : Customer deleted successfully with ID: f562a646-436f-4192-ac68-e84c9243f783
+2024-12-04T23:02:47.330-06:00  INFO 36024 --- [assignment] [SpringApplicationShutdownHook] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2024-12-04T23:02:47.591-06:00  INFO 36024 --- [assignment] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2024-12-04T23:02:47.597-06:00  INFO 36024 --- [assignment] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-12-04T23:02:47.602-06:00  INFO 36024 --- [assignment] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2024-12-04T23:02:47.605-06:00  INFO 36024 --- [assignment] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
