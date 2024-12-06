@@ -8,7 +8,7 @@ Home Assignment Link
 
 5. The application could be run using mvn clean install and then spring-boot:run with default profile. Profiling could be dont using Spring profiles and creating different application.yaml files. For enterprice level, Config Server is the best option to maintain the Config Files.
 
-6. All the test could be done(JUnits and Integration) using "mvn test"
+6. All the test could be done(JUnits and Integration) using "mvn test". The jacoco report for the application is available at: http://localhost:63342/assignment/target/site/jacoco/index.html
 
 		CURL for the application :
 			1. curl --location 'http://localhost:8080/api/customers' \
